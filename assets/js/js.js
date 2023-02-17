@@ -165,6 +165,7 @@ function deleteProduct(e){
 function emptyCar(){
     carList.innerHTML = "";
     carProducts = [];
+    carElementsHTML();
 }
 
 // //* Local Storage
